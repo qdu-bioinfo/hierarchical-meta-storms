@@ -27,7 +27,7 @@
 
 Hierarchical Meta-Storms (HMS) comprehensively calculates the dissimilarities of microbiome functional profiles by considering multi-level metabolic pathway hierarchy. It contains two core components: *i)* a dissimilarity algorithm that comprehensively calculates the distances among microbiome functional profiles by considering their multi-level metabolic pathway hierarchy among functional gene families, and *ii)* a PCoA implementation optimized by multi-thread parallel computing to rapidly parse out the beta-diversity pattern for thousands of samples. It takes the microbiome functional profiles of KO and their relative abundance as input, and computes and outputs their pairwise distance matrix and then the principle coordinates of PCoA. 
 
-In addition, we also encapsulate the C++ source codes as an R package （![#Github: hrms](https://github.com/qdu-bioinfo/hrms.git)) using RcppArmadillo framework and submitted to CRAN, making the kernel functions of calculating the microbiome distances and principle coordinates could be callable by R interpreter in both R terminal and R scripts.
+In addition, we also encapsulate the C++ source codes as an R package （[Github: hrms](https://github.com/qdu-bioinfo/hrms.git)) using RcppArmadillo framework and submitted to CRAN, making the kernel functions of calculating the microbiome distances and principle coordinates could be callable by R interpreter in both R terminal and R scripts.
 
 # System Requirement and dependency
 

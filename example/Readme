@@ -1,0 +1,24 @@
+#Here we provide a demo dataset with species abundance of
+#30 synthetic metagenomic samples in 3 different Groups.
+#
+#File description
+#dataset1.sp.abd: relative abundance of species.
+#dataset1.meta: group information of the samples.
+#
+#To run the demo, you can either
+#
+#sh Readme
+#
+#or
+#type the following command
+#
+#Commands to calculate the distances of microbiome functional profiles
+MS-comp-func -T dataset1.ko.abd -o dataset1.dist
+#Commands to implement PCoA
+MS-get-pc -d dataset1.dist -o dataset1.pcoa.pc
+#Output description
+#
+#dataset1.dist: Pairwise distance of the 30 samples
+#dataset1.pcoa.pc: Coordinates results of PCoA (Principle Co-ordinate Analysis) based on the distance matrix
+#
+#This demo run should take less than 1 minute on a recommended computer.

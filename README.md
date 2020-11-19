@@ -142,7 +142,7 @@ for detailed parameters.
 
 [Synthetic Dataset 1](http://bioinfo.single-cell.cn/Released_Software/hierarchical-meta-storms/data/synthetic_dataset_1.tar.gz) contains 30 synthetic samples.
 
-[Real Dataset 1](http://bioinfo.single-cell.cn/Released_Software/hierarchical-meta-storms/data/real_dataset_1.tar.gz) contains 20,000 real samples that are inferred from 16S rRNA gene by PICRUSt 2.
+[Real Dataset 1](http://bioinfo.single-cell.cn/Released_Software/hierarchical-meta-storms/data/actual_dataset_1.tar.gz) contains 20,000 real samples that are inferred from 16S rRNA gene by PICRUSt 2.
 
 [Real Dataset 2](http://bioinfo.single-cell.cn/Released_Software/hierarchical-meta-storms/data/actual_dataset_2.tar.gz) contains 5,350 real samples that are inferred from 16S rRNA gene by PICRUSt 2.
 

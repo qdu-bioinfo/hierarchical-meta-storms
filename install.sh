@@ -54,9 +54,9 @@ if [ "$Check_old_pm" != "" ]
          if [ "$Sys_ver" = "Darwin" ]
             then
             sed -i "" "s/^export\ HierarchicalMetaStorms/$Add_Part\ &/g" $PATH_File
-            sed -i "" -e $"`grep -n "$Add_Part" $PATH_File | cut -d ":" -f 1 | head -1` a\ 
-            export\ HierarchicalMetaStorms=$PM_PATH
-            " $PATH_File
+            sed -i "" -e "`grep -n "$Add_Part" $PATH_File | cut -d ":" -f 1 | head -1` a\ 
+export\ HierarchicalMetaStorms=$PM_PATH
+" $PATH_File
          else
              sed -i "s/^export\ HierarchicalMetaStorms/$Add_Part\ &/g" $PATH_File
              sed -i "/$Add_Part\ export\ HierarchicalMetaStorms/a export\ HierarchicalMetaStorms=$PM_PATH" $PATH_File

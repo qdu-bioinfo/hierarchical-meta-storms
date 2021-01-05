@@ -39,7 +39,7 @@ bool Reversed_table = false;
 bool Is_heatmap;
 int printhelp(){
     
-    cout << "Comp-func version : " << Version << endl;
+    cout << "MS-comp-func version : " << version << endl;
     cout << "\tCompute the Meta-Storms functional distance/similarity among samples" << endl;
     cout << "Usage: " << endl;
     cout << "MS-comp-func [Option] Value" << endl;

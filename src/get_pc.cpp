@@ -4,7 +4,7 @@
 //#include <ctime>
 
 void printhelp(){
-	cout << "MS-get-pc version :" << version << endl;
+	cout << "MS-get-pc version : " << pc_version << endl;
 	cout << "\tCompute the k-dimension principle coordinates by PCoA" << endl;
 	cout << "Usage: " << endl;
 	cout << "MS-get-pc [Option] Value" << endl;

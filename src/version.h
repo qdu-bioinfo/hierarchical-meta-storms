@@ -6,6 +6,7 @@
 #ifndef _VERSION_H
 #define _VERSION_H
 
-#define version "0.1 for KEGG"
+#define version "1.0 for KEGG"
+#define pc_version "1.0"
 
 #endif

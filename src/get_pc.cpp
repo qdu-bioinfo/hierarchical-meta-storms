@@ -16,6 +16,7 @@ void printhelp(){
 	cout << "\t-o Output test samples pc file, default is \"test.pc\"" << endl;
 	cout << "[Other options]" << endl;
 	cout << "\t-h Help" << endl;
+	exit(0);
 }
 
 string dist_file;
@@ -51,8 +52,11 @@ vector<vector<float> > Dis;
 int main(int argc, char *argv[]) {
 	
 	Parse_Para(argc, argv);
+
 	Matrixx dis(dist_file.c_str());
+
 	samples = dis.Get_Sample_Names();
+
 	int k = atoi(K.c_str());
 
 	//time_t a = time(0);

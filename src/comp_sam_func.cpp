@@ -1,7 +1,6 @@
 // Updated at Aug 13, 2019
 // Updated by Xiaoquan Su
-// Bioinformatics Group, Single-Cell Research Center, QIBEBT, CAS
-// version 3.1 or above with _Table_Format
+// Bioinformatics Group, College of Computer Science & Technology, Qingdao University
 
 #include <iostream>
 

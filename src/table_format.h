@@ -1,5 +1,5 @@
 // Updated at Aug 12, 2019
-// Bioinformatics Group, Single-Cell Research Center, QIBEBT, CAS
+// Bioinformatics Group, College of Computer Science & Technology, Qingdao University
 //version 3.1 or above with _Table_Format
 // Updated by Xiaoquan Su
 // Add_feature and Add abd
